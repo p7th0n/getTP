@@ -4,7 +4,7 @@ This is a quick and simple Python script that uses [Ag - The Silver Searcher](ht
 
 The output is formatted for the [TaskPaper](https://www.taskpaper.com/) plain text format and sent to stdout. The output can be piped to a .taskpaper file.
 
-Nothing fancy. Ag is super fast and does the heavy lifting. The Python code formats the Ag format to TaskPaper. Most IDE's have some form of task tracking already. But TaskPaper organizes task lists that usable on any platform.
+Nothing fancy. Ag is super fast and does the heavy lifting. The Python code formats the Ag format to TaskPaper. Most IDE's have some form of task tracking already. But TaskPaper organizes task lists that are usable on any platform.
 
 ## Apps that handle the TaskPaper format
 
