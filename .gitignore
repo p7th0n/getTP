@@ -101,3 +101,6 @@ ENV/
 .mypy_cache/
 
 flake8.log
+
+# VS Code
+.vscode/*.sql
