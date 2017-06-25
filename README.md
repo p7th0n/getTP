@@ -4,7 +4,31 @@ This is a quick and simple Python script that uses [Ag - The Silver Searcher](ht
 
 The output is formatted for the [TaskPaper](https://www.taskpaper.com/) plain text format and sent to stdout. The output can be piped to a .taskpaper file.
 
-Nothing fancy. Ag is super fast and does the heavy lifting. The Python code formats the Ag format to TaskPaper. Most IDE's have some form of task tracking already. But TaskPaper organizes task lists that are usable on any platform.
+Nothing fancy. Ag is super fast and does the heavy lifting. The Python code formats the Ag format to TaskPaper.
+
+* The current directory name is used for the root project name.
+* Each file with TODO's are sub-projects.  The sub-project names include relative directories.
+* Tasks begin with the line number of the TODO.
+
+```markdown
+
+gettp:
+
+        getTP.py:
+                - line: 2    Combine TODO's to a TaskPaper list
+                - line: 8    todo_command = 'ag TODO'
+                - line: 13   Use Ag Silver Searcher to find TODO comments in source
+
+        README.md:
+                - line: 1    # getTP - Get Source Code TODO's for a TaskPaper formatted file
+                - line: 3    This is a quick and simple Python script that uses [Ag - The Silver Searcher]...
+
+        sample\test.md:
+                - line: 5    * TODO: Ad nulla ad Lorem quis et quis in in laborum incididunt adipisicing occaecat id voluptate.
+
+```
+
+Most IDE's have some form of task tracking already. But TaskPaper organizes task lists that are usable on any platform.
 
 ## Apps that handle the TaskPaper format
 
