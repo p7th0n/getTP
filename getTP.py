@@ -16,7 +16,7 @@ def find_todos():
     output = proc.stdout.read()
 
     project_dir = os.getcwd()
-    print project_dir[project_dir.rfind(os.path.sep) + 1:]  + ':'
+    print project_dir[project_dir.rfind(os.path.sep) + 1:] + ':'
 
     l = output.split('\n')
     project = ''

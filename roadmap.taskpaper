@@ -1,0 +1,9 @@
+getTP_Roadmap:
+
+    getTP.py:
+
+        ☐ - Structure in class
+        ☐ - Build dict data structure for project TaskPaper
+        ☐ - Compare existing project Taskpaper with current scan
+        ☐ - Check for existing project Taskpaper and create one if needed
+
